@@ -49,10 +49,8 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Criação de Sites &rarr;</h2>
+            <p>Tenha seu pedacinho da Web - criamos sites e hospedamos.</p>
           </a>
         </div>
 
