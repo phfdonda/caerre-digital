@@ -1,4 +1,12 @@
-@use "abstract/mixins";
+@use "./abstract/index";
+
+// Variables to be moved later
+$primary_hue: 300;
+$secondary_hue: 100;
+$saturation: 100%;
+$lightness: 25%;
+$hover_lightness: 35;
+$primary: hsl($primary_hue, $saturation, $lightness);
 
 .container {
   padding: 0 2rem;
@@ -19,6 +27,7 @@
   border-top: 1px solid #eaeaea;
 
   a {
+    @extend %flex-center;
     flex-grow: 1;
   }
 }
@@ -27,16 +36,17 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: $primary;
 
   a {
-    color: #0070f3;
+    color: $primary;
     text-decoration: none;
 
     &:hover,
     &:focus,
     &:active {
       text-decoration: underline;
-      color: red;
+      color: $primary;
     }
   }
 }
@@ -81,8 +91,8 @@
   &:hover,
   &:focus,
   &:active {
-    color: #0070f3;
-    border-color: #0070f3;
+    color: $primary;
+    border-color: $primary;
   }
 
   h2 {
@@ -100,6 +110,28 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.hero_section {
+  @extend %flex-center;
+  height: 90vh;
+}
+
+.cta {
+  @extend %flex-center;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: hsl($primary_hue, $saturation, $lightness);
+  &:hover {
+    cursor: pointer;
+    background-color: hsl($primary_hue, $saturation, $hover_lightness);
+  }
+}
+
+.form {
+  height: 80vh;
 }
 
 @media (max-width: 600px) {

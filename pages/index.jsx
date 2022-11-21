@@ -12,12 +12,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Caerre Digital</h1>
+        <section className={styles.hero_section}>
+          <h1 className={styles.title}>Caerre Digital</h1>
 
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+          <p className={styles.description}>
+            Seus clientes não te acham? A gente resolve isso!
+          </p>
+
+          <a className={styles.cta} href="#form">
+            Vem conhecer!
+          </a>
+        </section>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -50,6 +55,10 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <section className={styles.form} id="form">
+          <form></form>
+        </section>
       </main>
 
       <footer className={styles.footer}>
