@@ -1,0 +1,6 @@
+$primary_hue: 300;
+$secondary_hue: 100;
+$saturation: 100%;
+$lightness: 25%;
+$hover_lightness: 35;
+$primary: hsl($primary_hue, $saturation, $lightness);

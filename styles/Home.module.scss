@@ -1,12 +1,4 @@
-@use "./abstract/index";
-
-// Variables to be moved later
-$primary_hue: 300;
-$secondary_hue: 100;
-$saturation: 100%;
-$lightness: 25%;
-$hover_lightness: 35;
-$primary: hsl($primary_hue, $saturation, $lightness);
+@use "styles/abstract/index" as *;
 
 .container {
   padding: 0 2rem;
