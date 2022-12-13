@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "name": "hero",
+      "data": {
+        "company-name": "Caerre Digital",
+        "headline": "Coloque seu negócio na web",
+        "subtitle": "Seus clientes não te acham? A gente resolve isso!",
+        "hero-img-url": ""
+      }
+    },
+    {
+      "name": "benefits",
+      "data": {}
+    },
+    {
+      "name": "video",
+      "data": {}
+    },
+    {
+      "name": "gallery",
+      "data": {}
+    },
+    {
+      "name": "social-proof",
+      "data": {}
+    },
+    {
+      "name": "promotion",
+      "data": {}
+    },
+    {
+      "name": "call-to-action",
+      "data": {}
+    }
+  ]
+}
