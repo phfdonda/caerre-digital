@@ -9,7 +9,13 @@
     {
       "name": "benefits",
       "active": false,
-      "data": {}
+      "data": [
+        { 
+          "icon":"",
+          "title":"",
+          "description": ""
+        }
+      ]
     },
     {
       "name": "video",
