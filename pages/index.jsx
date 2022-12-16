@@ -17,12 +17,10 @@ export default function Home() {
         <section className={styles.hero_section}>
           <h1 className={styles.title}>{copy["headline"]} </h1>
 
-          <p className={styles.description}>
-          {copy["description"]} 
-          </p>
+          <p className={styles.description}>{copy["description"]}</p>
 
           <a className={styles.cta} href="#form">
-            {copy["hero-cta"]}
+            {copy["cta"]}
           </a>
         </section>
 

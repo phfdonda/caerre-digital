@@ -2,20 +2,24 @@
   "company-name": "Caerre Digital",
   "headline": "Coloque seu negócio na web",
   "description": "Seus clientes não te acham? A gente resolve isso!",
-  "hero-cta": "Vem ser conhecido!",
+  "cta": "Vem ser conhecido",
   "hero-img-url": "",
-  "sections": [      
-    
+  "sections": [
     {
       "name": "benefits",
       "active": false,
       "data": [
-        { 
-          "icon":"",
-          "title":"",
+        {
+          "icon": "",
+          "title": "",
           "description": ""
         }
       ]
+    },
+    {
+      "name": "social-proof",
+      "active": false,
+      "data": {}
     },
     {
       "name": "video",
@@ -28,17 +32,12 @@
       "data": {}
     },
     {
-      "name": "social-proof",
-      "active": false,
-      "data": {}
-    },
-    {
       "name": "promotion",
       "active": false,
       "data": {}
     },
     {
-      "name": "call-to-action",
+      "name": "form",
       "active": false,
       "data": {}
     }
